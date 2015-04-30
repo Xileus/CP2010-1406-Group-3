@@ -1,0 +1,3 @@
+<?php include_once("dbc.php");
+echo "<form  action=\"submitArtist.php\"><table><tr><td>Artist Name</td><td><input type=\"text\" name=\"artistName\"></td></tr><tr><td>Artist Info</td><td><input type=\"text\" name=\"artistInfo\"></td></tr><tr><td>Artist Picture</td><td><input type=\"text\" name=\"artistPicture\"></td></tr><tr><td><input type=\"submit\" name=\"submit\"></td></tr></table></form>"; 
+echo "<p><a href=\"index.php\">back</a></p>" ?>
